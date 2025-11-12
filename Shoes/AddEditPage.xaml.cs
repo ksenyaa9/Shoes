@@ -256,7 +256,7 @@ namespace Shoes
             string fileExtension = System.IO.Path.GetExtension(sourceImagePath);
             string fileName = $"product_{DateTime.Now:yyyyMMddHHmmssfff}_{Guid.NewGuid().ToString().Substring(0, 8)}{fileExtension}";
             string outputPath = System.IO.Path.Combine(_imagesFolder, fileName);
-
+            //апвапв
             // Загружаем и обрабатываем изображение
             using (System.IO.FileStream sourceStream = new System.IO.FileStream(sourceImagePath, System.IO.FileMode.Open, System.IO.FileAccess.Read))
             {
